@@ -19,10 +19,6 @@ DRAW_PAIRS = {"A":"X","B":"Y","C":"Z"}
 SHAPE_POINTS = {"X":1,"Y":2,"Z":3}
 ACTION = {"X":loss,"Y":draw,"Z":win}
 
-
-win = 6
-loss = 0
-draw = 3
 with open(file,"r") as f:
     data = f.read()
 
